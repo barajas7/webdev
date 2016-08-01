@@ -1,0 +1,116 @@
+html, body, header, footer, nav, article, section, figure,
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+body {
+    background-image: url("cave-background.jpg");
+    background-color: black;
+    background-position: center top;
+    background-repeat: no-repeat;
+    font-family: "Arial", "Times New Roman", serif;
+    width: 650px;
+    margin: 0 auto 2em auto;
+}
+
+header {
+    background-color: #3f3622;
+    color: white;
+    width: 650px;
+    margin: 0 auto;
+}
+
+header nav {
+    padding: 0.25em 0.5em;
+    text-align: right;
+    font-family: serif;
+}
+
+header nav a:visited {
+    color: #A4A4A4;
+}
+
+header nav a:link {
+    color: white;
+}
+
+header h1 {
+    font-size: 3em;
+    text-align: center;
+    padding:0.166em;
+}
+
+figure img {
+    border: 1px solid black;
+    padding: 0.5em;
+    margin: 1em 1em 0.5em 1em;
+}
+
+figcaption {
+    font-size: 1.5em;
+    text-align: center;
+    padding-bottom: 0.67em;
+}
+
+#scene {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.67em;
+}
+
+.return {
+    padding-bottom: 1.5em;
+}
+
+.return p {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0.5em;
+}
+
+.return p span {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+#instructions {
+    font-family: "Times New Roman", "Arial", serif;
+}
+
+#instructions p {
+    padding: 0.75em;
+}
+
+.game {
+    background-color: white;
+}
+
+.game a:link {
+    color: #3f3622;
+}
+
+.game a:visited {
+    color: #3f3622;
+}
+
+div.rooms {
+    width:610px;
+    margin: 0 auto;
+}
+
+div.room {
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0.67em;
+}
