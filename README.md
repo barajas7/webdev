@@ -1,2 +1,2 @@
 # webdev
-Web Development projects
+Web Development projects by Arturo Barajas
